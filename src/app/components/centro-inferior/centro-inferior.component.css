@@ -6,13 +6,13 @@
 }
     skills{
         grid-row: 1 / 3;
-        border-right: 2px solid white;
+        border-right: 2px solid rgb(184, 15, 15);
     }
 
 
 .raiting{
     height: 150px;
-    background-color: white;
+    background-color: rgb(104, 102, 120);
 }
 
 ul{
@@ -45,6 +45,6 @@ ul{
     align-items: flex-start;
 }
     span:first-child{
-        color: #0e43f0;
+        color: #070f2c;
         font-weight: bold;
     }
