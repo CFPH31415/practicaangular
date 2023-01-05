@@ -7,10 +7,6 @@
     flex-basis: 80%;
   }
   
-  #foto {
-    background-color: rgb(120, 100, 139);
-  }
-  
   .datos {
     display: flex;
     justify-content: space-evenly;
@@ -24,9 +20,7 @@
       i {
         margin-top: 15px;
       }
-    
-    
-
+        
 ul {
       list-style: none;
       padding: 0;
@@ -36,22 +30,10 @@ ul {
       }
     
   
-  
   .redes {
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
   }
   
-  .perfil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-    h2 {
-      margin-bottom: 0;
-    }
-    p {
-      width: 90%;
-    }
   
