@@ -1,2 +1,24 @@
-<div class="banner">Contacto</div>
-<div class="test">Contáctame<div>
+<form [formGroup]="userForm">
+    <p>Contáctme</p>
+    <div>
+      <label for="firstName">Nombre: </label>
+      <input type="text" id="firstName" formControlName="firstName">
+    </div>
+    <br>
+    <div>
+      <label for="lastName">Apellido: </label>
+      <input type="text" id="lastName" formControlName="lastName">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email: </label>
+        <input type="text" id="email" formControlName="email">
+      </div>
+    <br>
+    <div>
+        <label for="message">Mensaje: </label>
+        <input type="text" id="message" formControlName="message">
+      </div>
+  </form>
+  <br>
+  <button (click)="submitForm()" [disabled]="userForm.invalid">Enviar</button>
