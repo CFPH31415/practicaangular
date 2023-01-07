@@ -10,8 +10,6 @@ export class CentroInferiorComponent {
 
   constructor(private fb: FormBuilder) {}
 
-  //Dando validaciones
-
   ngOnInit() {
     this.userForm = this.fb.group({
       firstName: [Validators.required, Validators.maxLength(10)],
@@ -23,8 +21,6 @@ export class CentroInferiorComponent {
 
     this.loadApi()
   }
-
-  //Valores predeterminados con los que se cargará el formulario
 
   loadApi():any{
     const response = {
